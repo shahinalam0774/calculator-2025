@@ -998,246 +998,502 @@
 <body>
     <!-- Notification Container -->
     <div id="notification" class="notification"></div>
+    
+    <!-- Help Button -->
+    <div class="help-container">
+        <button class="help-btn" id="helpBtn">
+            <i class="fas fa-question"></i>
+        </button>
+    </div>
+    
+    <!-- Help Panel -->
+    <div class="help-panel" id="helpPanel">
+        <div class="help-content">
+            <div class="help-header">
+                <div class="help-title">ব্যবহারকারী ম্যানুয়াল</div>
+                <button class="close-help" id="closeHelp">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="help-section">
+                <h3 class="help-section-title">কিভাবে ব্যবহার করবেন</h3>
+                
+                <div class="help-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-title">ব্যক্তিদের তথ্য যোগ করুন</div>
+                        <div class="step-desc">"নতুন ব্যক্তি যোগ করুন" বাটনে ক্লিক করে নতুন ব্যক্তি যোগ করুন। প্রতিটি ব্যক্তির জন্য নাম এবং জমির পরিমাণ লিখুন।</div>
+                    </div>
+                </div>
+                
+                <div class="help-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-title">জমির পরিমাণ দিন</div>
+                        <div class="step-desc">জমির পরিমাণ বাংলা বা ইংরেজি সংখ্যায় লিখতে পারেন। যেমন: ১২.৫ বা 12.5। অ্যাপটি স্বয়ংক্রিয়ভাবে বাংলা সংখ্যাকে ইংরেজিতে রূপান্তর করবে।</div>
+                    </div>
+                </div>
+                
+                <div class="help-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-title">হিসাব করুন</div>
+                        <div class="step-desc">"হিসাব করুন" বাটনে ক্লিক করুন। অ্যাপটি মোট জমি ১,০০০ ভাগে ভাগ করে প্রতিটি ব্যক্তির প্রাপ্য অংশ দেখাবে।</div>
+                    </div>
+                </div>
+                
+                <div class="help-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-title">ফলাফল দেখুন ও প্রিন্ট করুন</div>
+                        <div class="step-desc">ফলাফল টেবিল, পাই চার্ট এবং বার চার্টে দেখতে পাবেন। প্রয়োজন হলে "প্রিন্ট করুন" বাটনে ক্লিক করে ফলাফল প্রিন্ট করতে পারেন।</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="help-section">
+                <h3 class="help-section-title">বিশেষ বৈশিষ্ট্য</h3>
+                
+                <ul class="feature-list">
+                    <li>
+                        <i class="fas fa-check feature-icon"></i>
+                        <span>বাংলা ও ইংরেজি সংখ্যা সমর্থন</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check feature-icon"></i>
+                        <span>স্বয়ংক্রিয়ভাবে ডাটা সংরক্ষণ</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check feature-icon"></i>
+                        <span>রিয়েল-টাইম নাম আপডেট</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check feature-icon"></i>
+                        <span>বিদ্যমান ব্যক্তির জমি যোগ করার অপশন</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check feature-icon"></i>
+                        <span>ভিজ্যুয়ালাইজেশন (পাই চার্ট ও বার চার্ট)</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check feature-icon"></i>
+                        <span>পেশাদার প্রিন্ট লেআউট</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="help-section">
+                <h3 class="help-section-title">টিপস</h3>
+                
+                <ul class="feature-list">
+                    <li>
+                        <i class="fas fa-lightbulb feature-icon"></i>
+                        <span>প্রতিবার ইনপুট পরিবর্তন করলে অ্যাপটি স্বয়ংক্রিয়ভাবে ডাটা সংরক্ষণ করবে</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-lightbulb feature-icon"></i>
+                        <span>ব্যক্তির নাম পরিবর্তন করলে ড্রপডাউন মেনুতে তা রিয়েল-টাইমে আপডেট হবে</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-lightbulb feature-icon"></i>
+                        <span>প্রিন্ট করার আগে ব্রাউজারের প্রিন্ট প্রিভিউ চেক করে নিন</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-lightbulb feature-icon"></i>
+                        <span>মোবাইল ফোনে ব্যবহারের সময় ল্যান্ডস্কেপ মোডে দেখলে ভালো ফলাফল পাবেন</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
+        <!-- Developer Info Bar -->
+        <div class="developer-info-bar">
+            <div>
+                <strong>ডেভেলপার:</strong> Md Shahin Alam
+            </div>
+            <div class="developer-contact">
+                <a href="tel:+8801842502835">
+                    <i class="fas fa-phone"></i> +8801842-502835
+                </a>
+                <a href="mailto:shahinalam0774@gmail.com">
+                    <i class="fas fa-envelope"></i> shahinalam0774@gmail.com
+                </a>
+            </div>
+        </div>
+        
         <div class="header">
-            <h1>🏘️ জমি ভাগ ক্যালকুলেটর</h1>
-            <p class="desc">সবার জন্য <span class="highlight">ন্যায্য ভাগ</span> নিশ্চিত করুন - সহজ এবং দ্রুত গণনা</p>
+            <h1>জমি ভাগ ক্যালকুলেটর <span style="color: var(--secondary);">(প্রো সংস্করণ)</span></h1>
+            <p class="desc">আপনার জমির পরিমাণ (বাংলা বা ইংরেজিতে) লিখুন। ১,০০০ সমানভাবে ও নির্ভুলভাবে ভাগ হবে।</p>
+            <p class="desc"><span class="highlight">বাংলা সংখ্যা সমর্থিত</span> - যেমন: ১২.৫ বা 12.5 উভয়ই কাজ করবে</p>
+            <p class="desc" style="color: var(--primary); font-weight: bold;">ব্যক্তির নাম পরিবর্তন করলে ড্রপডাউনে রিয়েলটাইম আপডেট হবে</p>
         </div>
 
         <div class="input-section">
             <div>
-                <label>মোট জমির পরিমাণ (হাজার)</label>
-                <input type="number" id="totalLand" placeholder="হাজার লিখুন" value="1000" min="0">
+                <h3 style="color: var(--primary); margin-bottom: 20px; text-align: center;">ব্যক্তিদের তথ্য</h3>
+                <div id="peopleContainer" class="people"></div>
+                
+                <div class="controls">
+                    <button id="addPersonBtn" class="primary">
+                        <span>➕</span> নতুন ব্যক্তি যোগ করুন
+                    </button>
+                    <button id="calcBtn" class="success">
+                        <span>📊</span> হিসাব করুন
+                    </button>
+                </div>
             </div>
+            
             <div>
-                <label>মোট আনা (অংশ)</label>
-                <input type="number" id="totalAna" placeholder="আনা লিখুন" value="16" min="0">
+                <h3 style="color: var(--success); margin-bottom: 20px; text-align: center;">জমি যোগ করুন</h3>
+                <div class="land-addition">
+                    <div class="land-addition-title">বিদ্যমান ব্যক্তির জমি যোগ করুন</div>
+                    <div class="addition-controls">
+                        <div>
+                            <label>ব্যক্তি নির্বাচন করুন</label>
+                            <select id="personSelect" class="person-select">
+                                <option value="">ব্যক্তি নির্বাচন করুন</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>যোগ করার জমি</label>
+                            <input type="text" id="additionalLand" placeholder="যেমন: ৫ বা 5">
+                        </div>
+                        <button id="addLandBtn" class="add-land-btn">
+                            <span>➕</span> যোগ করুন
+                        </button>
+                    </div>
+                    <p style="text-align: center; margin-top: 10px; font-size: 14px; color: var(--gray);">
+                        ব্যক্তির নাম পরিবর্তন করলে এখানে স্বয়ংক্রিয়ভাবে আপডেট হবে
+                    </p>
+                </div>
+                
+                <div class="controls">
+                    <button id="resetBtn" class="warn">
+                        <span>🔄</span> রিসেট করুন
+                    </button>
+                    <button id="printBtn" class="ghost">
+                        <span>🖨️</span> প্রিন্ট করুন
+                    </button>
+                </div>
             </div>
-        </div>
-
-        <label>📋 প্রতিটি ব্যক্তির জমির অংশ</label>
-
-        <div class="people" id="peopleContainer"></div>
-
-        <div class="land-addition">
-            <div class="land-addition-title">➕ নতুন ব্যক্তি যোগ করুন</div>
-            <div class="addition-controls">
-                <input type="text" id="personName" placeholder="নাম লিখুন" value="">
-                <input type="number" id="personAna" placeholder="আনা" value="1" min="0">
-                <button class="add-land-btn" onclick="addPerson()">যোগ করুন</button>
-            </div>
-        </div>
-
-        <div class="controls">
-            <button class="primary" onclick="calculate()">🔢 গণনা করুন</button>
-            <button class="ghost" onclick="resetForm()">🔄 রিসেট করুন</button>
         </div>
 
         <div id="resultCard">
-            <div class="result-header">
-                <span class="result-title">✅ ফলাফল</span>
-                <button class="primary" onclick="window.print()">🖨️ প্রিন্ট করুন</button>
+            <!-- Print Header (Only visible when printing) -->
+            <div class="print-header no-screen">
+                <div class="print-title">জমি ভাগবাটোয়ারা প্রতিবেদন</div>
+                <div class="print-subtitle">ক্যালকুলেটর দ্বারা তৈরি - প্রো সংস্করণ</div>
+                <div class="print-date" id="printDate"></div>
             </div>
-
-            <h3 style="color: var(--primary); margin: 15px 0 10px 0; font-size: 16px; border-bottom: 2px solid var(--primary-light); padding-bottom: 8px;">
-                📊 প্রতিটি ব্যক্তির জমির হিসেব
-            </h3>
+            
+            <!-- Screen Result Header -->
+            <div class="result-header no-print">
+                <div class="result-title">হিসাবের ফলাফল</div>
+                <div style="color: var(--success); font-weight: bold;">✅ সফলভাবে হিসাব সম্পন্ন</div>
+            </div>
+            
+            <div class="print-info no-screen">
+                <div>
+                    <strong>মোট জমি:</strong> <span id="printTotalLand">0</span><br>
+                    <strong>মোট ব্যক্তি:</strong> <span id="printTotalPeople">0</span>
+                </div>
+                <div>
+                    <strong>তারিখ:</strong> <span id="printCurrentDate"></span><br>
+                    <strong>ভাগের একক:</strong> ১,০০০ ভাগ
+                </div>
+            </div>
+            
             <table id="resultTable">
                 <thead>
                     <tr>
-                        <th class="center">ক্রমিক</th>
-                        <th>ব্যক্তির নাম</th>
-                        <th class="right">আনার অংশ</th>
-                        <th class="right">জমির পরিমাণ (হাজার)</th>
-                        <th class="right">শতাংশ (%)</th>
+                        <th>ক্রমিক নং</th>
+                        <th>নাম</th>
+                        <th class="center">জমির পরিমাণ</th>
+                        <th class="center">শতাংশ (%)</th>
+                        <th class="right">১,০০০ ভাগ</th>
                     </tr>
                 </thead>
-                <tbody id="tableBody"></tbody>
+                <tbody></tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="2" class="right">মোট:</th>
-                        <th class="right" id="totalAnaDisplay">0</th>
-                        <th class="right" id="totalLandDisplay">0</th>
-                        <th class="right">100%</th>
+                        <th colspan="2">মোট</th>
+                        <th class="center" id="totalLand">0</th>
+                        <th class="center">100%</th>
+                        <th class="right" id="totalShare">1,000.00</th>
                     </tr>
                 </tfoot>
             </table>
-
+            
+            <!-- Visualization Section -->
             <div class="visualization">
-                <div class="visualization-title">📊 গ্রাফিক্যাল প্রতিনিধিত্ব</div>
+                <div class="visualization-title">ভিজ্যুয়ালাইজেশন</div>
                 <div class="charts-container">
                     <div class="chart-container">
-                        <div class="chart-title">পাই চার্ট - জমির অংশ</div>
+                        <div class="chart-title">জমির ভাগ (পাই চার্ট)</div>
                         <div class="chart-wrapper">
-                            <canvas id="pieChart"></canvas>
+                            <canvas id="landPieChart"></canvas>
                         </div>
                     </div>
                     <div class="chart-container">
-                        <div class="chart-title">বার চার্ট - প্রতিটি ব্যক্তির জমি</div>
+                        <div class="chart-title">ভাগের অনুপাত (বার চার্ট)</div>
                         <div class="chart-wrapper">
-                            <canvas id="barChart"></canvas>
+                            <canvas id="shareBarChart"></canvas>
                         </div>
                     </div>
                 </div>
+                <div class="legend-container" id="chartLegend"></div>
             </div>
-        </div>
-
-        <button class="about-btn" id="aboutBtn" onclick="toggleAbout()">ℹ️ ডেভেলপার সম্পর্কে</button>
-        <div class="developer" id="developer">
-            <div class="developer-info-bar">
-                <span>👨‍💻 তৈরি করেছেন: <strong>Md Shahin Alam</strong></span>
-                <div class="developer-contact">
-                    <a href="https://www.facebook.com/profile.php?id=100069827066277" target="_blank">
-                        <i class="fab fa-facebook"></i> Facebook
-                    </a>
-                    <a href="https://github.com/shahinalam0774" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
+            
+            <div class="print-signature no-screen">
+                <div class="signature-box">
+                    <div>দাখিলকারীর স্বাক্ষর</div>
+                    <div class="signature-line"></div>
+                    <div>নাম: ________________</div>
+                </div>
+                <div class="signature-box">
+                    <div>সত্যায়নকারীর স্বাক্ষর</div>
+                    <div class="signature-line"></div>
+                    <div>নাম: ________________</div>
                 </div>
             </div>
-            <p style="padding-top: 10px;">এই ক্যালকুলেটর ব্যবহার করে আপনি সহজেই জমি সমান ভাগ করতে পারবেন। যেকোনো সমস্যা হলে আমাদের সাথে যোগাযোগ করুন।</p>
+            
+            <!-- Additional credit for browsers that don't support @page margin boxes -->
+            <div class="print-credit no-screen">
+                Credit By Md Shahin Alam
+            </div>
+            
+            <p class="footer-note no-print">💡 হিসাব সর্বদা ১,০০০.০০ মিলবে (কোনও পার্থক্য নেই)।</p>
+        </div>
+
+        <div class="about-btn no-print" id="aboutToggle">
+            <span>📜</span> ডেভেলপার সম্পর্কে
+        </div>
+        <div class="developer no-print" id="developerInfo">
+            <strong>ডেভেলপার:</strong> Md Shahin Alam<br><br>
+            📞 ফোন: <a href="tel:+8801842502835">+8801842-502835</a><br>
+            📧 ইমেইল: <a href="mailto:shahinalam0774@gmail.com">shahinalam0774@gmail.com</a><br>
+            📍 ঠিকানা: ভজনপুর বাজার ৫০৩০, তেতুলিয়া, পঞ্চগড়<br><br>
+            <span style="color: var(--primary); font-size: 14px;">এই অ্যাপ্লিকেশনটি জমি ভাগ করার জন্য সহজ এবং নির্ভুল সমাধান প্রদান করে</span>
         </div>
     </div>
 
     <script>
-        let people = [
-            { name: "ব্যক্তি ১", ana: 1 },
-            { name: "ব্যক্তি ২", ana: 2 },
-            { name: "ব্যক্তি ৩", ana: 3 },
-            { name: "ব্যক্তি ৪", ana: 4 },
-            { name: "ব্যক্তি ৫", ana: 5 },
-            { name: "ব্যক্তি ৬", ana: 6 },
-            { name: "ব্যক্তি ৭", ana: 7 },
-            { name: "ব্যক্তি ৮", ana: 8 },
-            { name: "ব্যক্তি ৯", ana: 9 },
-            { name: "ব্যক্তি ১০", ana: 10 },
-            { name: "ব্যক্তি ১১", ana: 11 },
-            { name: "ব্যক্তি ১২", ana: 12 },
-            { name: "ব্যক্তি ১৩", ana: 13 },
-            { name: "ব্যক্তি ১৪", ana: 14 },
-            { name: "ব্যক্তি ১৫", ana: 15 },
-            { name: "ব্যক্তি ১৬", ana: 16 }
-        ];
-
-        let pieChart = null;
-        let barChart = null;
-
-        function renderPeople() {
-            const container = document.getElementById('peopleContainer');
-            container.innerHTML = '';
-
-            people.forEach((person, index) => {
-                const personDiv = document.createElement('div');
-                personDiv.className = 'person';
-                personDiv.innerHTML = `
-                    <div class="person-header">
-                        <div class="person-number">${index + 1}</div>
-                        <button class="removeBtn" onclick="removePerson(${index})">
-                            🗑️ মুছুন
-                        </button>
-                    </div>
-                    <label>নাম</label>
-                    <input type="text" value="${person.name}" onchange="people[${index}].name = this.value">
-                    <label>আনা</label>
-                    <input type="number" value="${person.ana}" min="0" onchange="people[${index}].ana = parseFloat(this.value) || 0">
-                `;
-                container.appendChild(personDiv);
-            });
+        const peopleContainer = document.getElementById('peopleContainer');
+        const addPersonBtn = document.getElementById('addPersonBtn');
+        const calcBtn = document.getElementById('calcBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const printBtn = document.getElementById('printBtn');
+        const addLandBtn = document.getElementById('addLandBtn');
+        const personSelect = document.getElementById('personSelect');
+        const additionalLand = document.getElementById('additionalLand');
+        const resultCard = document.getElementById('resultCard');
+        const resultTableBody = document.querySelector('#resultTable tbody');
+        const totalLandCell = document.getElementById('totalLand');
+        const totalShareCell = document.getElementById('totalShare');
+        const aboutToggle = document.getElementById('aboutToggle');
+        const developerInfo = document.getElementById('developerInfo');
+        const notification = document.getElementById('notification');
+        
+        // Help elements
+        const helpBtn = document.getElementById('helpBtn');
+        const helpPanel = document.getElementById('helpPanel');
+        const closeHelp = document.getElementById('closeHelp');
+        
+        // Print elements
+        const printTotalLand = document.getElementById('printTotalLand');
+        const printTotalPeople = document.getElementById('printTotalPeople');
+        const printCurrentDate = document.getElementById('printCurrentDate');
+        const printDate = document.getElementById('printDate');
+        
+        // Chart elements
+        const landPieChartCanvas = document.getElementById('landPieChart');
+        const shareBarChartCanvas = document.getElementById('shareBarChart');
+        const chartLegend = document.getElementById('chartLegend');
+        
+        let personCount = 0;
+        let landPieChart = null;
+        let shareBarChart = null;
+        const MAX_PERSONS = 50;
+        
+        // Help system functions
+        helpBtn.onclick = () => {
+            helpPanel.classList.add('active');
+        };
+        
+        closeHelp.onclick = () => {
+            helpPanel.classList.remove('active');
+        };
+        
+        // Close help panel when clicking outside
+        helpPanel.onclick = (e) => {
+            if (e.target === helpPanel) {
+                helpPanel.classList.remove('active');
+            }
+        };
+        
+        // Notification function
+        function showNotification(message, type = 'info', duration = 3000) {
+            notification.textContent = message;
+            notification.className = `notification ${type} show`;
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, duration);
         }
-
-        function addPerson() {
-            const name = document.getElementById('personName').value.trim() || `ব্যক্তি ${people.length + 1}`;
-            const ana = parseFloat(document.getElementById('personAna').value) || 1;
+        
+        function parseBanglaNumber(str) {
+            if (!str) return 0;
+            const map = {
+                '০':'0', '১':'1', '২':'2', '৩':'3', '৪':'4', 
+                '৫':'5', '৬':'6', '৭':'7', '৮':'8', '৯':'9', 
+                '।':'.', '٫':'.', ' ': '', '	': '', ',': ''
+            };
+            const cleaned = str.toString().replace(/[০-৯।٫,]/g, m => map[m] || m);
+            return parseFloat(cleaned) || 0;
+        }
+        
+        function formatNumber(num) {
+            return parseFloat(num.toFixed(2));
+        }
+        
+        function createPerson(name = '', land = '') {
+            if (personCount >= MAX_PERSONS) {
+                showNotification(`সর্বোচ্চ ${MAX_PERSONS} জন ব্যক্তি যোগ করা যাবে।`, 'error');
+                return;
+            }
             
-            people.push({ name, ana });
-            document.getElementById('personName').value = '';
-            document.getElementById('personAna').value = '1';
-            renderPeople();
-        }
-
-        function removePerson(index) {
-            if (people.length > 1) {
-                people.splice(index, 1);
-                renderPeople();
-            } else {
-                alert('অন্তত একজন ব্যক্তি প্রয়োজন!');
-            }
-        }
-
-        function toggleAbout() {
-            const developer = document.getElementById('developer');
-            developer.classList.toggle('active');
-            const btn = document.getElementById('aboutBtn');
-            btn.textContent = developer.classList.contains('active') ? 'ℹ️ লুকান' : 'ℹ️ ডেভেলপার সম্পর্কে';
-        }
-
-        function calculate() {
-            const totalLand = parseFloat(document.getElementById('totalLand').value) || 0;
-            const totalAna = parseFloat(document.getElementById('totalAna').value) || 0;
-
-            if (totalLand <= 0 || totalAna <= 0) {
-                alert('দয়া করে বৈধ মান প্রবেশ করুন!');
-                return;
-            }
-
-            const totalPersonAna = people.reduce((sum, p) => sum + p.ana, 0);
-
-            if (totalPersonAna === 0) {
-                alert('অন্তত একজন ব্যক্তির আনা ১ এর উপরে হতে হবে!');
-                return;
-            }
-
-            let tableHTML = '';
-            let chartLabels = [];
-            let chartData = [];
-            let chartColors = [
-                '#0f766e', '#14b8a6', '#06b6d4', '#0ea5e9', '#3b82f6',
-                '#1d4ed8', '#7c3aed', '#a855f7', '#d946ef', '#ec4899',
-                '#f43f5e', '#f97316', '#f59e0b', '#eab308', '#84cc16', '#22c55e'
-            ];
-
-            people.forEach((person, index) => {
-                const landAmount = (person.ana / totalPersonAna) * totalLand;
-                const percentage = ((person.ana / totalPersonAna) * 100).toFixed(2);
-
-                tableHTML += `
-                    <tr>
-                        <td class="center">${index + 1}</td>
-                        <td>${person.name}</td>
-                        <td class="right">${person.ana}</td>
-                        <td class="right">${landAmount.toFixed(2)}</td>
-                        <td class="right">${percentage}%</td>
-                    </tr>
-                `;
-
-                chartLabels.push(person.name);
-                chartData.push(parseFloat(landAmount.toFixed(2)));
+            personCount++;
+            const div = document.createElement('div');
+            div.className = 'person';
+            div.innerHTML = `
+                <div class="person-header">
+                    <label>ব্যক্তি ${personCount}</label>
+                    <div class="person-number">${personCount}</div>
+                </div>
+                <label>নাম</label>
+                <input type="text" class="pname" placeholder="নাম লিখুন" value="${name}">
+                <label>জমির পরিমাণ</label>
+                <input type="text" class="pland" placeholder="যেমন: ১২.৫ বা 12.5" value="${land}">
+                <button class="removeBtn">❌ সরান</button>
+            `;
+            
+            const removeBtn = div.querySelector('.removeBtn');
+            removeBtn.onclick = () => {
+                if (personCount <= 2) {
+                    showNotification('কমপক্ষে দুইজন ব্যক্তি থাকতে হবে', 'error');
+                    return;
+                }
+                div.remove();
+                updatePersonNumbers();
+                updatePersonSelect();
+                saveToLocalStorage();
+                showNotification('ব্যক্তি সরানো হয়েছে', 'success', 2000);
+            };
+            
+            // Auto-save on input change and update dropdown in real-time
+            const nameInput = div.querySelector('.pname');
+            const landInput = div.querySelector('.pland');
+            
+            nameInput.addEventListener('input', () => {
+                saveToLocalStorage();
+                updatePersonSelect(); // রিয়েলটাইম আপডেট
             });
-
-            document.getElementById('tableBody').innerHTML = tableHTML;
-            document.getElementById('totalAnaDisplay').textContent = totalPersonAna;
-            document.getElementById('totalLandDisplay').textContent = totalLand.toFixed(2);
-
-            // Draw charts
-            drawCharts(chartLabels, chartData, chartColors);
-
-            document.getElementById('resultCard').style.display = 'block';
+            
+            landInput.addEventListener('input', () => {
+                saveToLocalStorage();
+            });
+            
+            peopleContainer.appendChild(div);
+            updatePersonSelect();
+            saveToLocalStorage();
         }
-
-        function drawCharts(labels, data, colors) {
-            const pieCtx = document.getElementById('pieChart').getContext('2d');
-            const barCtx = document.getElementById('barChart').getContext('2d');
-
-            if (pieChart) pieChart.destroy();
-            if (barChart) barChart.destroy();
-
-            pieChart = new Chart(pieCtx, {
-                type: 'doughnut',
+        
+        function updatePersonNumbers() {
+            const persons = peopleContainer.querySelectorAll('.person');
+            personCount = persons.length;
+            persons.forEach((person, index) => {
+                const header = person.querySelector('.person-header label');
+                const number = person.querySelector('.person-number');
+                header.textContent = `ব্যক্তি ${index + 1}`;
+                number.textContent = index + 1;
+            });
+        }
+        
+        function updatePersonSelect() {
+            const persons = peopleContainer.querySelectorAll('.person');
+            const currentSelectedIndex = personSelect.value;
+            
+            personSelect.innerHTML = '<option value="">ব্যক্তি নির্বাচন করুন</option>';
+            
+            persons.forEach((person, index) => {
+                const nameInput = person.querySelector('.pname');
+                const currentName = nameInput.value.trim();
+                const displayName = currentName || `ব্যক্তি ${index + 1}`;
+                
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = displayName;
+                option.title = displayName;
+                
+                // যদি পূর্বে সিলেক্ট করা ছিল, তাহলে আবার সিলেক্ট করো
+                if (currentSelectedIndex === index.toString()) {
+                    option.selected = true;
+                }
+                
+                personSelect.appendChild(option);
+            });
+        }
+        
+        function updatePrintDate() {
+            const now = new Date();
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                weekday: 'long'
+            };
+            const dateString = now.toLocaleDateString('bn-BD', options);
+            printCurrentDate.textContent = dateString;
+            printDate.textContent = dateString;
+        }
+        
+        function generateColors(count) {
+            const colors = [];
+            const baseColors = [
+                '#0f766e', '#14b8a6', '#f59e0b', '#ef4444', '#10b981',
+                '#8b5cf6', '#3b82f6', '#f97316', '#84cc16', '#ec4899'
+            ];
+            
+            for (let i = 0; i < count; i++) {
+                colors.push(baseColors[i % baseColors.length]);
+            }
+            
+            return colors;
+        }
+        
+        function createCharts(data) {
+            // Destroy existing charts if they exist
+            if (landPieChart) {
+                landPieChart.destroy();
+            }
+            if (shareBarChart) {
+                shareBarChart.destroy();
+            }
+            
+            const colors = generateColors(data.length);
+            const names = data.map(d => d.name);
+            const lands = data.map(d => d.land);
+            const shares = data.map(d => d.share);
+            
+            // Create pie chart for land distribution
+            landPieChart = new Chart(landPieChartCanvas, {
+                type: 'pie',
                 data: {
-                    labels: labels,
+                    labels: names,
                     datasets: [{
-                        data: data,
+                        data: lands,
                         backgroundColor: colors,
                         borderColor: 'white',
                         borderWidth: 2
@@ -1248,66 +1504,309 @@
                     maintainAspectRatio: false,
                     plugins: {
                         legend: {
-                            position: 'bottom',
-                            labels: { font: { size: 11 }, padding: 8 }
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.label || '';
+                                    const value = context.raw || 0;
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = Math.round((value / total) * 100);
+                                    return `${label}: ${value} (${percentage}%)`;
+                                }
+                            }
                         }
                     }
                 }
             });
-
-            barChart = new Chart(barCtx, {
+            
+            // Create bar chart for share distribution
+            shareBarChart = new Chart(shareBarChartCanvas, {
                 type: 'bar',
                 data: {
-                    labels: labels,
+                    labels: names,
                     datasets: [{
-                        label: 'জমির পরিমাণ',
-                        data: data,
+                        label: 'ভাগের পরিমাণ',
+                        data: shares,
                         backgroundColor: colors,
-                        borderColor: colors,
+                        borderColor: colors.map(color => color),
                         borderWidth: 1
                     }]
                 },
                 options: {
-                    indexAxis: 'y',
                     responsive: true,
                     maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
                     scales: {
-                        x: { beginAtZero: true }
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'ভাগের পরিমাণ'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'ব্যক্তি'
+                            }
+                        }
                     }
                 }
             });
-        }
-
-        function resetForm() {
-            document.getElementById('totalLand').value = '1000';
-            document.getElementById('totalAna').value = '16';
-            document.getElementById('personName').value = '';
-            document.getElementById('personAna').value = '1';
-            document.getElementById('resultCard').style.display = 'none';
             
-            people = [
-                { name: "ব্যক্তি ১", ana: 1 },
-                { name: "ব্যক্তি ২", ana: 2 },
-                { name: "ব্যক্তি ৩", ana: 3 },
-                { name: "ব্যক্তি ৪", ana: 4 },
-                { name: "ব্যক্তি ৫", ana: 5 },
-                { name: "ব্যক্তি ৬", ana: 6 },
-                { name: "ব্যক্তি ৭", ana: 7 },
-                { name: "ব্যক্তি ৮", ana: 8 },
-                { name: "ব্যক্তি ৯", ana: 9 },
-                { name: "ব্যক্তি ১০", ana: 10 },
-                { name: "ব্যক্তি ১১", ana: 11 },
-                { name: "ব্যক্তি ১२", ana: 12 },
-                { name: "ব্যক্তি ১३", ana: 13 },
-                { name: "ব্যক্তি ১४", ana: 14 },
-                { name: "ব্যক্তি ১५", ana: 15 },
-                { name: "ব্যক্তি ১६", ana: 16 }
-            ];
-            renderPeople();
+            // Create custom legend
+            chartLegend.innerHTML = '';
+            names.forEach((name, index) => {
+                const legendItem = document.createElement('div');
+                legendItem.className = 'legend-item';
+                legendItem.innerHTML = `
+                    <div class="legend-color" style="background-color: ${colors[index]}"></div>
+                    <span>${name}</span>
+                `;
+                chartLegend.appendChild(legendItem);
+            });
         }
-
-        renderPeople();
+        
+        function prepareForPrint() {
+            // Update print date
+            updatePrintDate();
+            
+            // Ensure charts are rendered for print
+            if (landPieChart) {
+                landPieChart.resize();
+            }
+            if (shareBarChart) {
+                shareBarChart.resize();
+            }
+            
+            // Use setTimeout to ensure charts are fully rendered before printing
+            setTimeout(() => {
+                window.print();
+            }, 500);
+        }
+        
+        // Local Storage Functions
+        function saveToLocalStorage() {
+            const persons = [...peopleContainer.querySelectorAll('.person')].map(el => {
+                return {
+                    name: el.querySelector('.pname').value.trim(),
+                    land: el.querySelector('.pland').value.trim()
+                };
+            });
+            localStorage.setItem('landCalculatorData', JSON.stringify(persons));
+        }
+        
+        function loadFromLocalStorage() {
+            const saved = localStorage.getItem('landCalculatorData');
+            if (saved) {
+                const persons = JSON.parse(saved);
+                peopleContainer.innerHTML = '';
+                personCount = 0;
+                persons.forEach(person => {
+                    createPerson(person.name, person.land);
+                });
+            }
+        }
+        
+        // Auto-convert Bengali numbers to English on blur
+        function setupAutoConversion() {
+            peopleContainer.addEventListener('blur', (e) => {
+                if (e.target.classList.contains('pland')) {
+                    const banglaNum = e.target.value;
+                    const englishNum = parseBanglaNumber(banglaNum);
+                    if (!isNaN(englishNum) && englishNum !== 0 && banglaNum !== '') {
+                        e.target.value = englishNum.toString();
+                        saveToLocalStorage();
+                    }
+                }
+            }, true);
+        }
+        
+        // Add land to existing person
+        function addLandToPerson() {
+            const selectedIndex = personSelect.value;
+            const landToAdd = additionalLand.value.trim();
+            
+            if (selectedIndex === '') {
+                showNotification('দয়া করে একজন ব্যক্তি নির্বাচন করুন', 'error');
+                return;
+            }
+            
+            if (!landToAdd) {
+                showNotification('দয়া করে জমির পরিমাণ লিখুন', 'error');
+                return;
+            }
+            
+            const landValue = parseBanglaNumber(landToAdd);
+            if (landValue <= 0) {
+                showNotification('দয়া করে বৈধ জমির পরিমাণ লিখুন', 'error');
+                return;
+            }
+            
+            const persons = peopleContainer.querySelectorAll('.person');
+            const selectedPerson = persons[selectedIndex];
+            const landInput = selectedPerson.querySelector('.pland');
+            const currentLand = parseBanglaNumber(landInput.value) || 0;
+            const newLand = currentLand + landValue;
+            
+            landInput.value = formatNumber(newLand);
+            additionalLand.value = '';
+            
+            saveToLocalStorage();
+            showNotification(`${landValue} জমি যোগ করা হয়েছে`, 'success');
+            
+            // Auto-calculate if results are already shown
+            if (resultCard.style.display === 'block') {
+                calcBtn.click();
+            }
+        }
+        
+        // Event Listeners
+        addPersonBtn.onclick = () => {
+            createPerson();
+            showNotification('নতুন ব্যক্তি যোগ করা হয়েছে', 'success', 2000);
+        };
+        
+        addLandBtn.onclick = addLandToPerson;
+        
+        // Enter key support for additional land
+        additionalLand.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                addLandToPerson();
+            }
+        });
+        
+        resetBtn.onclick = () => {
+            if (!confirm('সব ইনপুট মুছে ফেলবেন? সেভ করা ডাটাও মুছে যাবে।')) return;
+            peopleContainer.innerHTML = '';
+            personCount = 0;
+            createPerson('', '');
+            createPerson('', '');
+            resultCard.style.display = 'none';
+            localStorage.removeItem('landCalculatorData');
+            
+            // Destroy charts
+            if (landPieChart) {
+                landPieChart.destroy();
+                landPieChart = null;
+            }
+            if (shareBarChart) {
+                shareBarChart.destroy();
+                shareBarChart = null;
+            }
+            
+            showNotification('সব ডাটা রিসেট করা হয়েছে', 'info');
+        };
+        
+        printBtn.onclick = prepareForPrint;
+        
+        calcBtn.onclick = () => {
+            const persons = [...peopleContainer.querySelectorAll('.person')].map((el, i) => {
+                const name = el.querySelector('.pname').value.trim() || `ব্যক্তি ${i + 1}`;
+                const landStr = el.querySelector('.pland').value.trim();
+                const land = parseBanglaNumber(landStr);
+                return { name, land };
+            });
+            
+            const total = persons.reduce((s, p) => s + p.land, 0);
+            if (total <= 0) {
+                showNotification('অনুগ্রহ করে বৈধ জমির পরিমাণ দিন।', 'error');
+                return;
+            }
+            
+            if (persons.length < 2) {
+                showNotification('অনুগ্রহ করে কমপক্ষে দুই ব্যক্তির তথ্য দিন।', 'error');
+                return;
+            }
+            
+            const TARGET = 1000;
+            let data = persons.map(p => ({
+                name: p.name,
+                land: formatNumber(p.land),
+                perc: (p.land / total) * 100,
+                share: (p.land / total) * TARGET
+            }));
+            
+            // Adjust for rounding errors
+            const totalShare = data.reduce((s, d) => s + d.share, 0);
+            const diff = TARGET - totalShare;
+            if (Math.abs(diff) > 0.01) {
+                data[data.length - 1].share += diff;
+                data[data.length - 1].perc = (data[data.length - 1].land / total) * 100;
+            }
+            
+            // Format final values
+            data = data.map(d => ({
+                ...d,
+                perc: formatNumber(d.perc),
+                share: formatNumber(d.share)
+            }));
+            
+            resultTableBody.innerHTML = '';
+            data.forEach((d, index) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${d.name}</td>
+                    <td class="center">${d.land.toFixed(2)}</td>
+                    <td class="center">${d.perc.toFixed(2)}%</td>
+                    <td class="right">${d.share.toFixed(2)}</td>
+                `;
+                resultTableBody.appendChild(tr);
+            });
+            
+            totalLandCell.textContent = formatNumber(total).toFixed(2);
+            totalShareCell.textContent = TARGET.toFixed(2);
+            
+            // Update print information
+            printTotalLand.textContent = formatNumber(total).toFixed(2);
+            printTotalPeople.textContent = persons.length;
+            updatePrintDate();
+            
+            // Create charts
+            createCharts(data);
+            
+            resultCard.style.display = 'block';
+            
+            // Scroll to results
+            resultCard.scrollIntoView({ behavior: 'smooth' });
+            
+            showNotification('হিসাব সফলভাবে সম্পন্ন হয়েছে!', 'success');
+        };
+        
+        aboutToggle.onclick = () => {
+            developerInfo.classList.toggle('active');
+            aboutToggle.innerHTML = developerInfo.classList.contains('active')
+                ? '<span>❌</span> বন্ধ করুন'
+                : '<span>📜</span> ডেভেলপার সম্পর্কে';
+        };
+        
+        // Initialize the application
+        function initApp() {
+            // Default two persons with actual names
+            createPerson('', '');
+            createPerson('', '');
+            
+            // Initialize print date
+            updatePrintDate();
+            
+            // Setup auto-conversion
+            setupAutoConversion();
+            
+            // Load saved data
+            loadFromLocalStorage();
+            
+            showNotification('জমি ভাগ ক্যালকুলেটর প্রোতে স্বাগতম!', 'info', 4000);
+        }
+        
+        // Start the application
+        initApp();
     </script>
 </body>
 </html>
