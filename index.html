@@ -40,7 +40,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 25px;
+            padding: 15px;
             color: var(--dark);
         }
         
@@ -48,9 +48,9 @@
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
-            max-width: 1200px;
+            max-width: 1400px;
             width: 100%;
-            padding: 35px;
+            padding: 30px;
             transition: all 0.3s ease;
             transform: translateZ(0);
             border: 1px solid rgba(255, 255, 255, 0.5);
@@ -65,23 +65,23 @@
         
         .header {
             text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid var(--primary-light);
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary-light);
         }
         
         h1 {
             color: var(--primary);
-            font-size: 36px;
-            margin-bottom: 10px;
+            font-size: 32px;
+            margin-bottom: 8px;
             letter-spacing: 0.5px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
         }
         
         .desc {
             color: var(--gray);
-            margin-bottom: 10px;
-            font-size: 16px;
+            margin-bottom: 8px;
+            font-size: 14px;
             max-width: 700px;
             margin-left: auto;
             margin-right: auto;
@@ -97,8 +97,8 @@
         .input-section {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-bottom: 30px;
+            gap: 25px;
+            margin-bottom: 25px;
         }
         
         @media (max-width: 968px) {
@@ -109,18 +109,18 @@
         
         .people {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-            margin-bottom: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
         }
         
         .person {
             background: linear-gradient(160deg, #f8fafc, #e2e8f0);
-            border: 1px solid #cbd5e1;
-            border-radius: 16px;
-            padding: 20px;
+            border: 2px solid #cbd5e1;
+            border-radius: 14px;
+            padding: 18px;
             transition: 0.3s;
-            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
             position: relative;
             overflow: hidden;
         }
@@ -136,27 +136,28 @@
         }
         
         .person:hover {
-            transform: translateY(-5px) scale(1.02);
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+            transform: translateY(-3px) scale(1.01);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.12);
+            border-color: var(--primary-light);
         }
         
         .person-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         
         .person-number {
             background: var(--primary);
             color: white;
-            width: 30px;
-            height: 30px;
+            width: 28px;
+            height: 28px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: bold;
         }
         
@@ -164,17 +165,17 @@
             display: block;
             font-weight: 600;
             color: var(--dark);
-            margin-bottom: 6px;
-            font-size: 15px;
+            margin-bottom: 5px;
+            font-size: 13px;
         }
         
         input, select {
             width: 100%;
-            padding: 10px 12px;
+            padding: 9px 11px;
             font-family: 'Kalpurush', sans-serif;
-            font-size: 15px;
+            font-size: 14px;
             border: 1px solid #cbd5e1;
-            border-radius: 10px;
+            border-radius: 8px;
             transition: 0.2s;
             background: white;
         }
@@ -182,19 +183,20 @@
         input:focus, select:focus {
             border-color: var(--primary);
             outline: none;
-            box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.2);
+            box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
         }
         
         .removeBtn {
             width: 100%;
-            margin-top: 12px;
-            padding: 8px;
+            margin-top: 10px;
+            padding: 7px;
             background: rgba(239, 68, 68, 0.1);
             color: var(--danger);
             border: 1px solid rgba(239, 68, 68, 0.3);
-            border-radius: 8px;
+            border-radius: 7px;
             cursor: pointer;
             font-weight: 600;
+            font-size: 13px;
             transition: 0.2s;
         }
         
@@ -205,17 +207,17 @@
         
         .land-addition {
             background: linear-gradient(160deg, #f0fdf4, #dcfce7);
-            border: 1px solid #bbf7d0;
-            border-radius: 16px;
-            padding: 20px;
-            margin-top: 20px;
+            border: 2px solid #bbf7d0;
+            border-radius: 14px;
+            padding: 18px;
+            margin-top: 15px;
         }
         
         .land-addition-title {
             color: var(--success);
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             text-align: center;
         }
         
@@ -230,10 +232,11 @@
             background: var(--success);
             color: white;
             border: none;
-            padding: 10px;
-            border-radius: 8px;
+            padding: 9px;
+            border-radius: 7px;
             cursor: pointer;
             font-weight: 600;
+            font-size: 13px;
             transition: 0.2s;
         }
         
@@ -245,23 +248,23 @@
         .controls {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 12px;
             flex-wrap: wrap;
-            margin: 25px 0;
+            margin: 20px 0;
         }
         
         button {
             font-family: 'Kalpurush', sans-serif;
-            padding: 12px 22px;
+            padding: 10px 20px;
             border: none;
-            border-radius: 10px;
+            border-radius: 8px;
             cursor: pointer;
             font-weight: 600;
             transition: 0.25s;
             display: flex;
             align-items: center;
-            gap: 8px;
-            font-size: 15px;
+            gap: 6px;
+            font-size: 14px;
         }
         
         button.primary {
@@ -310,11 +313,11 @@
         
         #resultCard {
             background: white;
-            border-radius: 16px;
-            padding: 25px;
+            border-radius: 14px;
+            padding: 22px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
-            border: 1px solid #e2e8f0;
+            border: 2px solid #e2e8f0;
             display: none;
             animation: fadeIn 0.5s ease;
         }
@@ -328,41 +331,68 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
+            margin-bottom: 18px;
+            padding-bottom: 12px;
             border-bottom: 2px solid var(--primary-light);
         }
         
         .result-title {
             color: var(--primary);
-            font-size: 24px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        .total-land {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .total-item {
+            background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+            border: 2px solid #bbf7d0;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .total-label {
+            color: var(--gray);
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .total-value {
+            color: var(--success);
+            font-size: 20px;
             font-weight: bold;
         }
         
         table {
             width: 100%;
             border-collapse: collapse;
-            border-radius: 12px;
+            border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            margin-bottom: 15px;
         }
         
         th, td {
-            padding: 14px 16px;
+            padding: 12px 14px;
             text-align: left;
             border-bottom: 1px solid #e2e8f0;
+            font-size: 13px;
         }
         
         th {
             background: linear-gradient(135deg, var(--primary), var(--primary-light));
             color: white;
             font-weight: 600;
-            font-size: 15px;
         }
         
         td {
             background: rgba(248, 250, 252, 0.5);
-            font-size: 15px;
         }
         
         tr:last-child td {
@@ -370,7 +400,8 @@
         }
         
         tfoot th {
-            background: var(--dark);
+            background: #334155;
+            color: white;
         }
         
         .right { 
@@ -383,27 +414,40 @@
         
         .footer-note {
             text-align: center;
-            font-size: 14px;
+            font-size: 12px;
             color: var(--gray);
-            margin-top: 15px;
-            padding: 12px;
+            margin-top: 12px;
+            padding: 10px;
             background: #f1f5f9;
             border-radius: 8px;
         }
         
+        .calculation-info {
+            background: linear-gradient(135deg, #fef08a, #fde047);
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        
+        .calculation-info strong {
+            color: var(--dark);
+        }
+        
         /* Visualization Section */
         .visualization {
-            margin-top: 25px;
-            padding: 20px;
+            margin-top: 20px;
+            padding: 15px;
             background: #f8fafc;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            border: 2px solid #e2e8f0;
         }
         
         .visualization-title {
             color: var(--primary);
-            font-size: 20px;
-            margin-bottom: 15px;
+            font-size: 18px;
+            margin-bottom: 12px;
             text-align: center;
             font-weight: bold;
         }
@@ -411,24 +455,25 @@
         .charts-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            gap: 15px;
         }
         
         .chart-container {
             background: white;
-            border-radius: 12px;
-            padding: 15px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-            height: 300px;
+            border-radius: 10px;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            height: 250px;
             display: flex;
             flex-direction: column;
         }
         
         .chart-title {
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             font-weight: 600;
             color: var(--dark);
+            font-size: 13px;
         }
         
         .chart-wrapper {
@@ -439,86 +484,29 @@
         .legend-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
+            gap: 8px;
+            margin-top: 10px;
             justify-content: center;
         }
         
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 5px;
-            font-size: 13px;
+            gap: 4px;
+            font-size: 12px;
         }
         
         .legend-color {
-            width: 12px;
-            height: 12px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
         }
         
-        /* About Section */
-        .about-btn {
-            display: block;
-            text-align: center;
-            margin-top: 25px;
-            background: #f1f5f9;
-            padding: 12px 15px;
-            border-radius: 10px;
-            cursor: pointer;
-            color: var(--dark);
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: 1px solid #cbd5e1;
-        }
-        
-        .about-btn:hover {
-            background: #e2e8f0;
-            transform: translateY(-2px);
-        }
-        
-        .developer {
-            text-align: center;
-            font-size: 15px;
-            color: var(--gray);
-            margin-top: 15px;
-            padding: 20px;
-            border-radius: 12px;
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            max-height: 0;
-            overflow: hidden;
-            opacity: 0;
-            transition: all 0.5s ease;
-        }
-        
-        .developer.active {
-            max-height: 300px;
-            opacity: 1;
-            margin-top: 20px;
-        }
-        
-        .developer a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-        }
-        
-        .developer a:hover {
-            text-decoration: underline;
-        }
-        
-        /* Print Styles */
+        /* Print Styles - Optimized for A4 */
         @media print {
             @page {
                 size: A4;
-                margin: 0.5in;
-                @bottom-center {
-                    content: "Credit By Md Shahin Alam";
-                    font-size: 10px;
-                    color: #64748b;
-                    font-style: italic;
-                }
+                margin: 10mm;
             }
             
             body { 
@@ -534,19 +522,19 @@
             
             .container {
                 box-shadow: none !important;
-                padding: 0 !important;
+                padding: 10mm !important;
                 margin: 0 !important;
                 width: 100% !important;
                 max-width: 100% !important;
                 background: white !important;
-                border: none !important;
+                border: 1px solid #d0d0d0 !important;
                 border-radius: 0 !important;
                 min-height: auto !important;
             }
             
             .header, .people, .controls, .about-btn, .developer,
             .removeBtn, #addPersonBtn, #calcBtn, #resetBtn,
-            .footer-note, .no-print, .land-addition {
+            .footer-note, .no-print, .land-addition, .help-container {
                 display: none !important;
             }
             
@@ -562,64 +550,57 @@
             
             .print-header {
                 text-align: center;
-                margin-bottom: 25px;
-                padding-bottom: 15px;
+                margin-bottom: 20px;
+                padding-bottom: 10px;
                 border-bottom: 2px solid var(--primary);
             }
             
             .print-title {
                 color: var(--primary);
-                font-size: 28px;
+                font-size: 24px;
                 font-weight: bold;
-                margin-bottom: 10px;
+                margin-bottom: 8px;
             }
             
             .print-subtitle {
                 color: var(--gray);
-                font-size: 16px;
+                font-size: 13px;
             }
             
-            .print-info {
+            .total-land {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                gap: 20px;
-                margin-bottom: 25px;
-                padding: 15px;
-                background: #f8fafc;
-                border-radius: 8px;
+                gap: 10px;
+                margin-bottom: 15px;
             }
             
-            .print-date {
-                text-align: right;
-                margin-bottom: 20px;
-                color: var(--gray);
-                font-size: 14px;
+            .total-item {
+                background: #f0fdf4 !important;
+                border: 1px solid #bbf7d0 !important;
+                padding: 10px !important;
             }
             
-            .print-signature {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 40px;
-                margin-top: 50px;
-                padding-top: 20px;
-                border-top: 1px solid #e2e8f0;
+            .total-label {
+                font-size: 11px !important;
             }
             
-            .signature-box {
-                text-align: center;
+            .total-value {
+                font-size: 16px !important;
             }
             
-            .signature-line {
-                margin-top: 60px;
-                border-bottom: 1px solid #000;
-                padding-bottom: 5px;
+            .calculation-info {
+                background: #fef08a !important;
+                padding: 10px !important;
+                font-size: 12px !important;
+                border-left: 3px solid #f59e0b !important;
             }
             
             table {
                 box-shadow: none !important;
-                border: 1px solid #e2e8f0 !important;
+                border: 1px solid #d0d0d0 !important;
                 page-break-inside: avoid;
                 break-inside: avoid;
+                margin-bottom: 12px !important;
             }
             
             th {
@@ -627,45 +608,61 @@
                 color: white !important;
                 -webkit-print-color-adjust: exact;
                 print-color-adjust: exact;
+                padding: 8px 10px !important;
+                font-size: 12px !important;
+            }
+            
+            td {
+                padding: 8px 10px !important;
+                font-size: 12px !important;
+                background: white !important;
             }
             
             .visualization {
                 display: block !important;
                 page-break-inside: avoid;
                 break-inside: avoid;
-                margin-top: 30px !important;
-                padding: 15px !important;
+                margin-top: 15px !important;
+                padding: 10px !important;
                 background: white !important;
-                border: 1px solid #e2e8f0 !important;
+                border: 1px solid #d0d0d0 !important;
+            }
+            
+            .visualization-title {
+                font-size: 16px !important;
+                margin-bottom: 10px !important;
             }
             
             .charts-container {
                 display: grid !important;
                 grid-template-columns: 1fr 1fr !important;
-                gap: 15px !important;
+                gap: 10px !important;
                 page-break-inside: avoid;
                 break-inside: avoid;
             }
             
             .chart-container {
                 background: white !important;
-                border: 1px solid #e2e8f0 !important;
+                border: 1px solid #d0d0d0 !important;
                 box-shadow: none !important;
-                height: 250px !important;
+                height: 180px !important;
+                padding: 8px !important;
                 page-break-inside: avoid;
                 break-inside: avoid;
             }
             
-            .legend-container {
-                display: flex !important;
-                flex-wrap: wrap !important;
-                gap: 10px !important;
-                margin-top: 15px !important;
-                justify-content: center !important;
+            .chart-title {
+                font-size: 12px !important;
+                margin-bottom: 6px !important;
             }
             
-            .no-screen {
-                display: block !important;
+            .legend-container {
+                gap: 6px !important;
+                margin-top: 8px !important;
+            }
+            
+            .legend-item {
+                font-size: 11px !important;
             }
             
             canvas {
@@ -674,30 +671,15 @@
                 max-width: 100% !important;
                 height: auto !important;
             }
-            
-            .print-credit {
-                display: block !important;
-                text-align: center;
-                font-size: 10px;
-                color: #64748b;
-                margin-top: 20px;
-                padding-top: 10px;
-                border-top: 1px dashed #cbd5e1;
-                font-style: italic;
-                position: fixed;
-                bottom: 0.2in;
-                left: 0;
-                right: 0;
-            }
         }
         
         @media (max-width: 768px) {
             .container {
-                padding: 20px;
+                padding: 15px;
             }
             
             h1 {
-                font-size: 28px;
+                font-size: 26px;
             }
             
             .people {
@@ -721,780 +703,278 @@
                 grid-template-columns: 1fr;
             }
             
-            @media print {
-                .charts-container {
-                    grid-template-columns: 1fr !important;
-                }
-            }
-        }
-
-        /* Notification Styles */
-        .notification {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 15px 20px;
-            border-radius: 10px;
-            color: white;
-            font-weight: 600;
-            z-index: 1000;
-            transform: translateX(150%);
-            transition: transform 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
-        
-        .notification.show {
-            transform: translateX(0);
-        }
-        
-        .notification.success {
-            background: var(--success);
-        }
-        
-        .notification.error {
-            background: var(--danger);
-        }
-        
-        .notification.info {
-            background: var(--primary);
-        }
-        
-        /* New Help and Manual Styles */
-        .help-container {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-        }
-        
-        .help-btn {
-            background: var(--primary);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-            font-size: 20px;
-        }
-        
-        .help-btn:hover {
-            transform: scale(1.1);
-            background: var(--primary-light);
-        }
-        
-        .help-panel {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.7);
-            z-index: 999;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-        }
-        
-        .help-panel.active {
-            opacity: 1;
-            visibility: visible;
-        }
-        
-        .help-content {
-            background: white;
-            border-radius: 20px;
-            width: 90%;
-            max-width: 800px;
-            max-height: 90vh;
-            overflow-y: auto;
-            padding: 30px;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-            transform: translateY(20px);
-            transition: transform 0.3s ease;
-        }
-        
-        .help-panel.active .help-content {
-            transform: translateY(0);
-        }
-        
-        .help-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 25px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid var(--primary-light);
-        }
-        
-        .help-title {
-            color: var(--primary);
-            font-size: 28px;
-            font-weight: bold;
-        }
-        
-        .close-help {
-            background: var(--danger);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        
-        .close-help:hover {
-            transform: scale(1.1);
-            background: #dc2626;
-        }
-        
-        .help-section {
-            margin-bottom: 25px;
-        }
-        
-        .help-section-title {
-            color: var(--primary);
-            font-size: 20px;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #e2e8f0;
-        }
-        
-        .help-step {
-            display: flex;
-            margin-bottom: 15px;
-            padding: 15px;
-            background: #f8fafc;
-            border-radius: 12px;
-            border-left: 4px solid var(--primary);
-        }
-        
-        .step-number {
-            background: var(--primary);
-            color: white;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            margin-right: 15px;
-            flex-shrink: 0;
-        }
-        
-        .step-content {
-            flex: 1;
-        }
-        
-        .step-title {
-            font-weight: bold;
-            margin-bottom: 5px;
-            color: var(--dark);
-        }
-        
-        .step-desc {
-            color: var(--gray);
-            font-size: 14px;
-        }
-        
-        .feature-list {
-            list-style-type: none;
-        }
-        
-        .feature-list li {
-            padding: 10px 0;
-            border-bottom: 1px solid #e2e8f0;
-            display: flex;
-            align-items: center;
-        }
-        
-        .feature-list li:last-child {
-            border-bottom: none;
-        }
-        
-        .feature-icon {
-            color: var(--success);
-            margin-right: 10px;
-            font-size: 16px;
-        }
-        
-        .developer-info-bar {
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
-            color: white;
-            padding: 10px 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: 0 4px 10px rgba(15, 118, 110, 0.3);
-        }
-        
-        .developer-contact {
-            display: flex;
-            gap: 15px;
-            font-size: 14px;
-        }
-        
-        .developer-contact a {
-            color: white;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        
-        .developer-contact a:hover {
-            text-decoration: underline;
-        }
-        
-        @media (max-width: 768px) {
-            .help-container {
-                top: 10px;
-                left: 10px;
-            }
-            
-            .help-btn {
-                width: 45px;
-                height: 45px;
-                font-size: 18px;
-            }
-            
-            .help-content {
-                padding: 20px;
-            }
-            
-            .help-title {
-                font-size: 24px;
-            }
-            
-            .developer-info-bar {
-                flex-direction: column;
-                gap: 10px;
-                text-align: center;
-            }
-            
-            .developer-contact {
-                justify-content: center;
-                flex-wrap: wrap;
+            .total-land {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 
 <body>
-    <!-- Notification Container -->
-    <div id="notification" class="notification"></div>
-    
-    <!-- Help Button -->
-    <div class="help-container">
-        <button class="help-btn" id="helpBtn">
-            <i class="fas fa-question"></i>
-        </button>
-    </div>
-    
-    <!-- Help Panel -->
-    <div class="help-panel" id="helpPanel">
-        <div class="help-content">
-            <div class="help-header">
-                <div class="help-title">ব্যবহারকারী ম্যানুয়াল</div>
-                <button class="close-help" id="closeHelp">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            
-            <div class="help-section">
-                <h3 class="help-section-title">কিভাবে ব্যবহার করবেন</h3>
-                
-                <div class="help-step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <div class="step-title">ব্যক্তিদের তথ্য যোগ করুন</div>
-                        <div class="step-desc">"নতুন ব্যক্তি যোগ করুন" বাটনে ক্লিক করে নতুন ব্যক্তি যোগ করুন। প্রতিটি ব্যক্তির জন্য নাম এবং জমির পরিমাণ লিখুন।</div>
-                    </div>
-                </div>
-                
-                <div class="help-step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <div class="step-title">জমির পরিমাণ দিন</div>
-                        <div class="step-desc">জমির পরিমাণ বাংলা বা ইংরেজি সংখ্যায় লিখতে পারেন। যেমন: ১২.৫ বা 12.5। অ্যাপটি স্বয়ংক্রিয়ভাবে বাংলা সংখ্যাকে ইংরেজিতে রূপান্তর করবে।</div>
-                    </div>
-                </div>
-                
-                <div class="help-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <div class="step-title">হিসাব করুন</div>
-                        <div class="step-desc">"হিসাব করুন" বাটনে ক্লিক করুন। অ্যাপটি মোট জমি ১,০০০ ভাগে ভাগ করে প্রতিটি ব্যক্তির প্রাপ্য অংশ দেখাবে।</div>
-                    </div>
-                </div>
-                
-                <div class="help-step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <div class="step-title">ফলাফল দেখুন ও প্রিন্ট করুন</div>
-                        <div class="step-desc">ফলাফল টেবিল, পাই চার্ট এবং বার চার্টে দেখতে পাবেন। প্রয়োজন হলে "প্রিন্ট করুন" বাটনে ক্লিক করে ফলাফল প্রিন্ট করতে পারেন।</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="help-section">
-                <h3 class="help-section-title">বিশেষ বৈশিষ্ট্য</h3>
-                
-                <ul class="feature-list">
-                    <li>
-                        <i class="fas fa-check feature-icon"></i>
-                        <span>বাংলা ও ইংরেজি সংখ্যা সমর্থন</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check feature-icon"></i>
-                        <span>স্বয়ংক্রিয়ভাবে ডাটা সংরক্ষণ</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check feature-icon"></i>
-                        <span>রিয়েল-টাইম নাম আপডেট</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check feature-icon"></i>
-                        <span>বিদ্যমান ব্যক্তির জমি যোগ করার অপশন</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check feature-icon"></i>
-                        <span>ভিজ্যুয়ালাইজেশন (পাই চার্ট ও বার চার্ট)</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check feature-icon"></i>
-                        <span>পেশাদার প্রিন্ট লেআউট</span>
-                    </li>
-                </ul>
-            </div>
-            
-            <div class="help-section">
-                <h3 class="help-section-title">টিপস</h3>
-                
-                <ul class="feature-list">
-                    <li>
-                        <i class="fas fa-lightbulb feature-icon"></i>
-                        <span>প্রতিবার ইনপুট পরিবর্তন করলে অ্যাপটি স্বয়ংক্রিয়ভাবে ডাটা সংরক্ষণ করবে</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-lightbulb feature-icon"></i>
-                        <span>ব্যক্তির নাম পরিবর্তন করলে ড্রপডাউন মেনুতে তা রিয়েল-টাইমে আপডেট হবে</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-lightbulb feature-icon"></i>
-                        <span>প্রিন্ট করার আগে ব্রাউজারের প্রিন্ট প্রিভিউ চেক করে নিন</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-lightbulb feature-icon"></i>
-                        <span>মোবাইল ফোনে ব্যবহারের সময় ল্যান্ডস্কেপ মোডে দেখলে ভালো ফলাফল পাবেন</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
-        <!-- Developer Info Bar -->
-        <div class="developer-info-bar">
-            <div>
-                <strong>ডেভেলপার:</strong> Md Shahin Alam
-            </div>
-            <div class="developer-contact">
-                <a href="tel:+8801842502835">
-                    <i class="fas fa-phone"></i> +8801842-502835
-                </a>
-                <a href="mailto:shahinalam0774@gmail.com">
-                    <i class="fas fa-envelope"></i> shahinalam0774@gmail.com
-                </a>
-            </div>
-        </div>
-        
         <div class="header">
-            <h1>জমি ভাগ ক্যালকুলেটর <span style="color: var(--secondary);">(প্রো সংস্করণ)</span></h1>
-            <p class="desc">আপনার জমির পরিমাণ (বাংলা বা ইংরেজিতে) লিখুন। ১,০০০ সমানভাবে ও নির্ভুলভাবে ভাগ হবে।</p>
-            <p class="desc"><span class="highlight">বাংলা সংখ্যা সমর্থিত</span> - যেমন: ১২.৫ বা 12.5 উভয়ই কাজ করবে</p>
-            <p class="desc" style="color: var(--primary); font-weight: bold;">ব্যক্তির নাম পরিবর্তন করলে ড্রপডাউনে রিয়েলটাইম আপডেট হবে</p>
+            <h1>🏘️ জমি ভাগ ক্যালকুলেটর</h1>
+            <p class="desc">সবার জন্য ন্যায্য ভাগ নিশ্চিত করুন - সহজ এবং দ্রুত গণনা</p>
         </div>
 
         <div class="input-section">
             <div>
-                <h3 style="color: var(--primary); margin-bottom: 20px; text-align: center;">ব্যক্তিদের তথ্য</h3>
-                <div id="peopleContainer" class="people"></div>
-                
-                <div class="controls">
-                    <button id="addPersonBtn" class="primary">
-                        <span>➕</span> নতুন ব্যক্তি যোগ করুন
-                    </button>
-                    <button id="calcBtn" class="success">
-                        <span>📊</span> হিসাব করুন
-                    </button>
-                </div>
+                <label style="display: flex; gap: 10px; align-items: center; font-size: 15px; margin-bottom: 10px;">
+                    <i class="fas fa-map"></i> মোট জমির পরিমাণ
+                </label>
+                <input type="number" id="totalLand" placeholder="হাজার লিখুন" value="1000" min="0">
             </div>
-            
             <div>
-                <h3 style="color: var(--success); margin-bottom: 20px; text-align: center;">জমি যোগ করুন</h3>
-                <div class="land-addition">
-                    <div class="land-addition-title">বিদ্যমান ব্যক্তির জমি যোগ করুন</div>
-                    <div class="addition-controls">
-                        <div>
-                            <label>ব্যক্তি নির্বাচন করুন</label>
-                            <select id="personSelect" class="person-select">
-                                <option value="">ব্যক্তি নির্বাচন করুন</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>যোগ করার জমি</label>
-                            <input type="text" id="additionalLand" placeholder="যেমন: ৫ বা 5">
-                        </div>
-                        <button id="addLandBtn" class="add-land-btn">
-                            <span>➕</span> যোগ করুন
-                        </button>
-                    </div>
-                    <p style="text-align: center; margin-top: 10px; font-size: 14px; color: var(--gray);">
-                        ব্যক্তির নাম পরিবর্তন করলে এখানে স্বয়ংক্রিয়ভাবে আপডেট হবে
-                    </p>
-                </div>
-                
-                <div class="controls">
-                    <button id="resetBtn" class="warn">
-                        <span>🔄</span> রিসেট করুন
-                    </button>
-                    <button id="printBtn" class="ghost">
-                        <span>🖨️</span> প্রিন্ট করুন
-                    </button>
-                </div>
+                <label style="display: flex; gap: 10px; align-items: center; font-size: 15px; margin-bottom: 10px;">
+                    <i class="fas fa-users"></i> মোট আনা
+                </label>
+                <input type="number" id="totalAna" placeholder="আনা লিখুন" value="16" min="0">
             </div>
+        </div>
+
+        <label style="display: flex; gap: 10px; align-items: center; font-size: 15px; margin-bottom: 15px;">
+            <i class="fas fa-plus-circle"></i> প্রতিটি ব্যক্তির জমির অংশ যোগ করুন
+        </label>
+
+        <div class="people" id="peopleContainer"></div>
+
+        <div class="land-addition">
+            <div class="land-addition-title">নতুন ব্যক্তি যোগ করুন</div>
+            <div class="addition-controls">
+                <input type="text" id="personName" placeholder="নামঃ" value="">
+                <input type="number" id="personAna" placeholder="আনা" value="1" min="0">
+                <button class="add-land-btn" id="addPersonBtn" onclick="addPerson()">
+                    <i class="fas fa-user-plus"></i> যোগ করুন
+                </button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="primary" id="calcBtn" onclick="calculate()">
+                <i class="fas fa-calculator"></i> গণনা করুন
+            </button>
+            <button class="ghost" id="resetBtn" onclick="resetForm()">
+                <i class="fas fa-redo"></i> রিসেট করুন
+            </button>
         </div>
 
         <div id="resultCard">
-            <!-- Print Header (Only visible when printing) -->
-            <div class="print-header no-screen">
-                <div class="print-title">জমি ভাগবাটোয়ারা প্রতিবেদন</div>
-                <div class="print-subtitle">ক্যালকুলেটর দ্বারা তৈরি - প্রো সংস্করণ</div>
-                <div class="print-date" id="printDate"></div>
+            <div class="result-header">
+                <span class="result-title">ফলাফল</span>
+                <button class="primary" onclick="window.print()" style="gap: 5px;">
+                    <i class="fas fa-print"></i> প্রিন্ট করুন
+                </button>
             </div>
-            
-            <!-- Screen Result Header -->
-            <div class="result-header no-print">
-                <div class="result-title">হিসাবের ফলাফল</div>
-                <div style="color: var(--success); font-weight: bold;">✅ সফলভাবে হিসাব সম্পন্ন</div>
+
+            <div class="total-land" id="totalDisplay"></div>
+
+            <div class="calculation-info">
+                <strong>ছোট জমির হিসেব:</strong> ১০০০ হাজারে ১৬ আনা = প্রতি আনায় <span id="perAnaLand">62.5</span> হাজার জমি
             </div>
-            
-            <div class="print-info no-screen">
-                <div>
-                    <strong>মোট জমি:</strong> <span id="printTotalLand">0</span><br>
-                    <strong>মোট ব্যক্তি:</strong> <span id="printTotalPeople">0</span>
-                </div>
-                <div>
-                    <strong>তারিখ:</strong> <span id="printCurrentDate"></span><br>
-                    <strong>ভাগের একক:</strong> ১,০০০ ভাগ
-                </div>
-            </div>
-            
+
+            <h3 style="color: var(--primary); margin: 15px 0 10px 0; font-size: 15px; border-bottom: 2px solid var(--primary-light); padding-bottom: 8px;">
+                <i class="fas fa-table"></i> প্রতিটি ব্যক্তির হিসেব
+            </h3>
             <table id="resultTable">
                 <thead>
                     <tr>
-                        <th>ক্রমিক নং</th>
-                        <th>নাম</th>
-                        <th class="center">জমির পরিমাণ</th>
-                        <th class="center">শতাংশ (%)</th>
-                        <th class="right">১,০০০ ভাগ</th>
+                        <th class="center">ক্রমিক</th>
+                        <th>ব্যক্তির নাম</th>
+                        <th class="right">আনার পরিমাণ</th>
+                        <th class="right">জমির পরিমাণ (হাজার)</th>
+                        <th class="right">শতাংশ (%)</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody id="tableBody"></tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="2">মোট</th>
-                        <th class="center" id="totalLand">0</th>
-                        <th class="center">100%</th>
-                        <th class="right" id="totalShare">1,000.00</th>
+                        <th colspan="2" class="right">মোট:</th>
+                        <th class="right" id="totalAnaDisplay">0</th>
+                        <th class="right" id="totalLandDisplay">0</th>
+                        <th class="right">100%</th>
                     </tr>
                 </tfoot>
             </table>
-            
-            <!-- Visualization Section -->
+
             <div class="visualization">
-                <div class="visualization-title">ভিজ্যুয়ালাইজেশন</div>
+                <div class="visualization-title">📊 সুন্দর চার্ট দেখুন</div>
                 <div class="charts-container">
                     <div class="chart-container">
-                        <div class="chart-title">জমির ভাগ (পাই চার্ট)</div>
+                        <div class="chart-title">পাই চার্ট - জমির অনুপাত</div>
                         <div class="chart-wrapper">
-                            <canvas id="landPieChart"></canvas>
+                            <canvas id="pieChart"></canvas>
                         </div>
                     </div>
                     <div class="chart-container">
-                        <div class="chart-title">ভাগের অনুপাত (বার চার্ট)</div>
+                        <div class="chart-title">বার চার্ট - প্রতিটি ব্যক্তির হিসেব</div>
                         <div class="chart-wrapper">
-                            <canvas id="shareBarChart"></canvas>
+                            <canvas id="barChart"></canvas>
                         </div>
                     </div>
                 </div>
-                <div class="legend-container" id="chartLegend"></div>
             </div>
-            
-            <div class="print-signature no-screen">
-                <div class="signature-box">
-                    <div>দাখিলকারীর স্বাক্ষর</div>
-                    <div class="signature-line"></div>
-                    <div>নাম: ________________</div>
-                </div>
-                <div class="signature-box">
-                    <div>সত্যায়নকারীর স্বাক্ষর</div>
-                    <div class="signature-line"></div>
-                    <div>নাম: ________________</div>
-                </div>
-            </div>
-            
-            <!-- Additional credit for browsers that don't support @page margin boxes -->
-            <div class="print-credit no-screen">
-                Credit By Md Shahin Alam
-            </div>
-            
-            <p class="footer-note no-print">💡 হিসাব সর্বদা ১,০০০.০০ মিলবে (কোনও পার্থক্য নেই)।</p>
-        </div>
-
-        <div class="about-btn no-print" id="aboutToggle">
-            <span>📜</span> ডেভেলপার সম্পর্কে
-        </div>
-        <div class="developer no-print" id="developerInfo">
-            <strong>ডেভেলপার:</strong> Md Shahin Alam<br><br>
-            📞 ফোন: <a href="tel:+8801842502835">+8801842-502835</a><br>
-            📧 ইমেইল: <a href="mailto:shahinalam0774@gmail.com">shahinalam0774@gmail.com</a><br>
-            📍 ঠিকানা: ভজনপুর বাজার ৫০৩০, তেতুলিয়া, পঞ্চগড়<br><br>
-            <span style="color: var(--primary); font-size: 14px;">এই অ্যাপ্লিকেশনটি জমি ভাগ করার জন্য সহজ এবং নির্ভুল সমাধান প্রদান করে</span>
         </div>
     </div>
 
     <script>
-        const peopleContainer = document.getElementById('peopleContainer');
-        const addPersonBtn = document.getElementById('addPersonBtn');
-        const calcBtn = document.getElementById('calcBtn');
-        const resetBtn = document.getElementById('resetBtn');
-        const printBtn = document.getElementById('printBtn');
-        const addLandBtn = document.getElementById('addLandBtn');
-        const personSelect = document.getElementById('personSelect');
-        const additionalLand = document.getElementById('additionalLand');
-        const resultCard = document.getElementById('resultCard');
-        const resultTableBody = document.querySelector('#resultTable tbody');
-        const totalLandCell = document.getElementById('totalLand');
-        const totalShareCell = document.getElementById('totalShare');
-        const aboutToggle = document.getElementById('aboutToggle');
-        const developerInfo = document.getElementById('developerInfo');
-        const notification = document.getElementById('notification');
-        
-        // Help elements
-        const helpBtn = document.getElementById('helpBtn');
-        const helpPanel = document.getElementById('helpPanel');
-        const closeHelp = document.getElementById('closeHelp');
-        
-        // Print elements
-        const printTotalLand = document.getElementById('printTotalLand');
-        const printTotalPeople = document.getElementById('printTotalPeople');
-        const printCurrentDate = document.getElementById('printCurrentDate');
-        const printDate = document.getElementById('printDate');
-        
-        // Chart elements
-        const landPieChartCanvas = document.getElementById('landPieChart');
-        const shareBarChartCanvas = document.getElementById('shareBarChart');
-        const chartLegend = document.getElementById('chartLegend');
-        
-        let personCount = 0;
-        let landPieChart = null;
-        let shareBarChart = null;
-        const MAX_PERSONS = 50;
-        
-        // Help system functions
-        helpBtn.onclick = () => {
-            helpPanel.classList.add('active');
-        };
-        
-        closeHelp.onclick = () => {
-            helpPanel.classList.remove('active');
-        };
-        
-        // Close help panel when clicking outside
-        helpPanel.onclick = (e) => {
-            if (e.target === helpPanel) {
-                helpPanel.classList.remove('active');
+        let people = [
+            { name: "ব্যক্তি ১", ana: 1 },
+            { name: "ব্যক্তি ২", ana: 2 },
+            { name: "ব্যক্তি ৩", ana: 3 },
+            { name: "ব্যক্তি ৪", ana: 4 },
+            { name: "ব্যক্তি ৫", ana: 5 },
+            { name: "ব্যক্তি ৬", ana: 6 },
+            { name: "ব্যক্তি ৭", ana: 7 },
+            { name: "ব্যক্তি ৮", ana: 8 },
+            { name: "ব্যক্তি ৯", ana: 9 },
+            { name: "ব্যক্তি ১০", ana: 10 },
+            { name: "ব্যক্তি ১১", ana: 11 },
+            { name: "ব্যক্তি ১২", ana: 12 },
+            { name: "ব্যক্তি ১৩", ana: 13 },
+            { name: "ব্যক্তি ১৪", ana: 14 },
+            { name: "ব্যক্তি ১৫", ana: 15 },
+            { name: "ব্যক্তি ১৬", ana: 16 }
+        ];
+
+        let pieChart = null;
+        let barChart = null;
+
+        function renderPeople() {
+            const container = document.getElementById('peopleContainer');
+            container.innerHTML = '';
+
+            people.forEach((person, index) => {
+                const personDiv = document.createElement('div');
+                personDiv.className = 'person';
+                personDiv.innerHTML = `
+                    <div class="person-header">
+                        <div class="person-number">${index + 1}</div>
+                        <button class="removeBtn" onclick="removePerson(${index})">
+                            <i class="fas fa-trash"></i> মুছুন
+                        </button>
+                    </div>
+                    <label>নাম</label>
+                    <input type="text" value="${person.name}" onchange="people[${index}].name = this.value">
+                    <label style="margin-top: 8px;">আনা</label>
+                    <input type="number" value="${person.ana}" min="0" onchange="people[${index}].ana = parseFloat(this.value) || 0">
+                `;
+                container.appendChild(personDiv);
+            });
+        }
+
+        function addPerson() {
+            const name = document.getElementById('personName').value.trim() || `ব্যক্তি ${people.length + 1}`;
+            const ana = parseFloat(document.getElementById('personAna').value) || 1;
+            
+            people.push({ name, ana });
+            document.getElementById('personName').value = '';
+            document.getElementById('personAna').value = '1';
+            renderPeople();
+        }
+
+        function removePerson(index) {
+            if (people.length > 1) {
+                people.splice(index, 1);
+                renderPeople();
+            } else {
+                alert('অন্তত একজন ব্যক্তি প্রয়োজন!');
             }
-        };
-        
-        // Notification function
-        function showNotification(message, type = 'info', duration = 3000) {
-            notification.textContent = message;
-            notification.className = `notification ${type} show`;
-            setTimeout(() => {
-                notification.classList.remove('show');
-            }, duration);
         }
-        
-        function parseBanglaNumber(str) {
-            if (!str) return 0;
-            const map = {
-                '০':'0', '১':'1', '২':'2', '৩':'3', '৪':'4', 
-                '৫':'5', '৬':'6', '৭':'7', '৮':'8', '৯':'9', 
-                '।':'.', '٫':'.', ' ': '', '	': '', ',': ''
-            };
-            const cleaned = str.toString().replace(/[০-৯।٫,]/g, m => map[m] || m);
-            return parseFloat(cleaned) || 0;
-        }
-        
-        function formatNumber(num) {
-            return parseFloat(num.toFixed(2));
-        }
-        
-        function createPerson(name = '', land = '') {
-            if (personCount >= MAX_PERSONS) {
-                showNotification(`সর্বোচ্চ ${MAX_PERSONS} জন ব্যক্তি যোগ করা যাবে।`, 'error');
+
+        function calculate() {
+            const totalLand = parseFloat(document.getElementById('totalLand').value) || 0;
+            const totalAna = parseFloat(document.getElementById('totalAna').value) || 0;
+
+            if (totalLand <= 0 || totalAna <= 0) {
+                alert('দয়া করে বৈধ মান প্রবেশ করুন!');
                 return;
             }
-            
-            personCount++;
-            const div = document.createElement('div');
-            div.className = 'person';
-            div.innerHTML = `
-                <div class="person-header">
-                    <label>ব্যক্তি ${personCount}</label>
-                    <div class="person-number">${personCount}</div>
-                </div>
-                <label>নাম</label>
-                <input type="text" class="pname" placeholder="নাম লিখুন" value="${name}">
-                <label>জমির পরিমাণ</label>
-                <input type="text" class="pland" placeholder="যেমন: ১২.৫ বা 12.5" value="${land}">
-                <button class="removeBtn">❌ সরান</button>
-            `;
-            
-            const removeBtn = div.querySelector('.removeBtn');
-            removeBtn.onclick = () => {
-                if (personCount <= 2) {
-                    showNotification('কমপক্ষে দুইজন ব্যক্তি থাকতে হবে', 'error');
-                    return;
-                }
-                div.remove();
-                updatePersonNumbers();
-                updatePersonSelect();
-                saveToLocalStorage();
-                showNotification('ব্যক্তি সরানো হয়েছে', 'success', 2000);
-            };
-            
-            // Auto-save on input change and update dropdown in real-time
-            const nameInput = div.querySelector('.pname');
-            const landInput = div.querySelector('.pland');
-            
-            nameInput.addEventListener('input', () => {
-                saveToLocalStorage();
-                updatePersonSelect(); // রিয়েলটাইম আপডেট
-            });
-            
-            landInput.addEventListener('input', () => {
-                saveToLocalStorage();
-            });
-            
-            peopleContainer.appendChild(div);
-            updatePersonSelect();
-            saveToLocalStorage();
-        }
-        
-        function updatePersonNumbers() {
-            const persons = peopleContainer.querySelectorAll('.person');
-            personCount = persons.length;
-            persons.forEach((person, index) => {
-                const header = person.querySelector('.person-header label');
-                const number = person.querySelector('.person-number');
-                header.textContent = `ব্যক্তি ${index + 1}`;
-                number.textContent = index + 1;
-            });
-        }
-        
-        function updatePersonSelect() {
-            const persons = peopleContainer.querySelectorAll('.person');
-            const currentSelectedIndex = personSelect.value;
-            
-            personSelect.innerHTML = '<option value="">ব্যক্তি নির্বাচন করুন</option>';
-            
-            persons.forEach((person, index) => {
-                const nameInput = person.querySelector('.pname');
-                const currentName = nameInput.value.trim();
-                const displayName = currentName || `ব্যক্তি ${index + 1}`;
-                
-                const option = document.createElement('option');
-                option.value = index;
-                option.textContent = displayName;
-                option.title = displayName;
-                
-                // যদি পূর্বে সিলেক্ট করা ছিল, তাহলে আবার সিলেক্ট করো
-                if (currentSelectedIndex === index.toString()) {
-                    option.selected = true;
-                }
-                
-                personSelect.appendChild(option);
-            });
-        }
-        
-        function updatePrintDate() {
-            const now = new Date();
-            const options = { 
-                year: 'numeric', 
-                month: 'long', 
-                day: 'numeric',
-                weekday: 'long'
-            };
-            const dateString = now.toLocaleDateString('bn-BD', options);
-            printCurrentDate.textContent = dateString;
-            printDate.textContent = dateString;
-        }
-        
-        function generateColors(count) {
-            const colors = [];
-            const baseColors = [
-                '#0f766e', '#14b8a6', '#f59e0b', '#ef4444', '#10b981',
-                '#8b5cf6', '#3b82f6', '#f97316', '#84cc16', '#ec4899'
+
+            const totalPersonAna = people.reduce((sum, p) => sum + p.ana, 0);
+
+            if (totalPersonAna === 0) {
+                alert('অন্তত একজন ব্যক্তির আনা ১ এর উপরে হতে হবে!');
+                return;
+            }
+
+            const landPerAna = totalLand / totalAna;
+            document.getElementById('perAnaLand').textContent = landPerAna.toFixed(2);
+
+            // Prepare data for table
+            let tableHTML = '';
+            let chartLabels = [];
+            let chartData = [];
+            let chartColors = [
+                '#0f766e', '#14b8a6', '#06b6d4', '#0ea5e9', '#3b82f6',
+                '#1d4ed8', '#7c3aed', '#a855f7', '#d946ef', '#ec4899',
+                '#f43f5e', '#f97316', '#f59e0b', '#eab308', '#84cc16'
             ];
-            
-            for (let i = 0; i < count; i++) {
-                colors.push(baseColors[i % baseColors.length]);
-            }
-            
-            return colors;
+
+            people.forEach((person, index) => {
+                const landAmount = (person.ana * landPerAna).toFixed(2);
+                const percentage = ((person.ana / totalPersonAna) * 100).toFixed(2);
+
+                tableHTML += `
+                    <tr>
+                        <td class="center">${index + 1}</td>
+                        <td>${person.name}</td>
+                        <td class="right">${person.ana}</td>
+                        <td class="right">${landAmount}</td>
+                        <td class="right">${percentage}%</td>
+                    </tr>
+                `;
+
+                chartLabels.push(person.name);
+                chartData.push(parseFloat(landAmount));
+            });
+
+            document.getElementById('tableBody').innerHTML = tableHTML;
+            document.getElementById('totalAnaDisplay').textContent = totalPersonAna;
+            document.getElementById('totalLandDisplay').textContent = totalLand.toFixed(2);
+
+            // Update total display
+            let totalDisplay = `
+                <div class="total-item">
+                    <div class="total-label">📏 মোট জমির পরিমাণ</div>
+                    <div class="total-value">${totalLand.toFixed(2)} হাজার</div>
+                </div>
+                <div class="total-item">
+                    <div class="total-label">📊 মোট আনার পরিমাণ</div>
+                    <div class="total-value">${totalAna} আনা</div>
+                </div>
+                <div class="total-item">
+                    <div class="total-label">🔄 প্রতি আনায় জমি</div>
+                    <div class="total-value">${landPerAna.toFixed(2)} হাজার</div>
+                </div>
+                <div class="total-item">
+                    <div class="total-label">👥 মোট ব্যক্তি</div>
+                    <div class="total-value">${people.length} জন</div>
+                </div>
+            `;
+            document.getElementById('totalDisplay').innerHTML = totalDisplay;
+
+            // Draw charts
+            drawCharts(chartLabels, chartData, chartColors);
+
+            document.getElementById('resultCard').style.display = 'block';
         }
-        
-        function createCharts(data) {
-            // Destroy existing charts if they exist
-            if (landPieChart) {
-                landPieChart.destroy();
-            }
-            if (shareBarChart) {
-                shareBarChart.destroy();
-            }
-            
-            const colors = generateColors(data.length);
-            const names = data.map(d => d.name);
-            const lands = data.map(d => d.land);
-            const shares = data.map(d => d.share);
-            
-            // Create pie chart for land distribution
-            landPieChart = new Chart(landPieChartCanvas, {
-                type: 'pie',
+
+        function drawCharts(labels, data, colors) {
+            const pieCtx = document.getElementById('pieChart').getContext('2d');
+            const barCtx = document.getElementById('barChart').getContext('2d');
+
+            // Destroy existing charts
+            if (pieChart) pieChart.destroy();
+            if (barChart) barChart.destroy();
+
+            // Pie Chart
+            pieChart = new Chart(pieCtx, {
+                type: 'doughnut',
                 data: {
-                    labels: names,
+                    labels: labels,
                     datasets: [{
-                        data: lands,
-                        backgroundColor: colors,
+                        data: data,
+                        backgroundColor: colors.slice(0, labels.length),
                         borderColor: 'white',
                         borderWidth: 2
                     }]
@@ -1504,37 +984,32 @@
                     maintainAspectRatio: false,
                     plugins: {
                         legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    const label = context.label || '';
-                                    const value = context.raw || 0;
-                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                                    const percentage = Math.round((value / total) * 100);
-                                    return `${label}: ${value} (${percentage}%)`;
-                                }
+                            position: 'bottom',
+                            labels: {
+                                font: { size: 11 },
+                                padding: 8,
+                                usePointStyle: true
                             }
                         }
                     }
                 }
             });
-            
-            // Create bar chart for share distribution
-            shareBarChart = new Chart(shareBarChartCanvas, {
+
+            // Bar Chart
+            barChart = new Chart(barCtx, {
                 type: 'bar',
                 data: {
-                    labels: names,
+                    labels: labels,
                     datasets: [{
-                        label: 'ভাগের পরিমাণ',
-                        data: shares,
-                        backgroundColor: colors,
-                        borderColor: colors.map(color => color),
+                        label: 'জমির পরিমাণ (হাজার)',
+                        data: data,
+                        backgroundColor: colors.slice(0, labels.length),
+                        borderColor: colors.slice(0, labels.length),
                         borderWidth: 1
                     }]
                 },
                 options: {
+                    indexAxis: 'y',
                     responsive: true,
                     maintainAspectRatio: false,
                     plugins: {
@@ -1543,270 +1018,52 @@
                         }
                     },
                     scales: {
-                        y: {
+                        x: {
                             beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'ভাগের পরিমাণ'
+                            ticks: {
+                                font: { size: 11 }
                             }
                         },
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'ব্যক্তি'
+                        y: {
+                            ticks: {
+                                font: { size: 11 }
                             }
                         }
                     }
                 }
             });
-            
-            // Create custom legend
-            chartLegend.innerHTML = '';
-            names.forEach((name, index) => {
-                const legendItem = document.createElement('div');
-                legendItem.className = 'legend-item';
-                legendItem.innerHTML = `
-                    <div class="legend-color" style="background-color: ${colors[index]}"></div>
-                    <span>${name}</span>
-                `;
-                chartLegend.appendChild(legendItem);
-            });
         }
-        
-        function prepareForPrint() {
-            // Update print date
-            updatePrintDate();
+
+        function resetForm() {
+            document.getElementById('totalLand').value = '1000';
+            document.getElementById('totalAna').value = '16';
+            document.getElementById('personName').value = '';
+            document.getElementById('personAna').value = '1';
+            document.getElementById('resultCard').style.display = 'none';
             
-            // Ensure charts are rendered for print
-            if (landPieChart) {
-                landPieChart.resize();
-            }
-            if (shareBarChart) {
-                shareBarChart.resize();
-            }
-            
-            // Use setTimeout to ensure charts are fully rendered before printing
-            setTimeout(() => {
-                window.print();
-            }, 500);
+            people = [
+                { name: "ব্যক্তি ১", ana: 1 },
+                { name: "ব্যক্তি ২", ana: 2 },
+                { name: "ব্যক্তি ৩", ana: 3 },
+                { name: "ব্যক্তি ৪", ana: 4 },
+                { name: "ব্যক্তি ৫", ana: 5 },
+                { name: "ব্যক্তি ৬", ana: 6 },
+                { name: "ব্যক্তি ৭", ana: 7 },
+                { name: "ব্যক্তি ৮", ana: 8 },
+                { name: "ব্যক্তি ৯", ana: 9 },
+                { name: "ব্যক্তি ১০", ana: 10 },
+                { name: "ব্যক্তি ১১", ana: 11 },
+                { name: "ব্যক্তি ১২", ana: 12 },
+                { name: "ব্যক্তি ১৩", ana: 13 },
+                { name: "ব্যক্তি ১৪", ana: 14 },
+                { name: "ব্যক্তি ১৫", ana: 15 },
+                { name: "ব্যক্তি ১৬", ana: 16 }
+            ];
+            renderPeople();
         }
-        
-        // Local Storage Functions
-        function saveToLocalStorage() {
-            const persons = [...peopleContainer.querySelectorAll('.person')].map(el => {
-                return {
-                    name: el.querySelector('.pname').value.trim(),
-                    land: el.querySelector('.pland').value.trim()
-                };
-            });
-            localStorage.setItem('landCalculatorData', JSON.stringify(persons));
-        }
-        
-        function loadFromLocalStorage() {
-            const saved = localStorage.getItem('landCalculatorData');
-            if (saved) {
-                const persons = JSON.parse(saved);
-                peopleContainer.innerHTML = '';
-                personCount = 0;
-                persons.forEach(person => {
-                    createPerson(person.name, person.land);
-                });
-            }
-        }
-        
-        // Auto-convert Bengali numbers to English on blur
-        function setupAutoConversion() {
-            peopleContainer.addEventListener('blur', (e) => {
-                if (e.target.classList.contains('pland')) {
-                    const banglaNum = e.target.value;
-                    const englishNum = parseBanglaNumber(banglaNum);
-                    if (!isNaN(englishNum) && englishNum !== 0 && banglaNum !== '') {
-                        e.target.value = englishNum.toString();
-                        saveToLocalStorage();
-                    }
-                }
-            }, true);
-        }
-        
-        // Add land to existing person
-        function addLandToPerson() {
-            const selectedIndex = personSelect.value;
-            const landToAdd = additionalLand.value.trim();
-            
-            if (selectedIndex === '') {
-                showNotification('দয়া করে একজন ব্যক্তি নির্বাচন করুন', 'error');
-                return;
-            }
-            
-            if (!landToAdd) {
-                showNotification('দয়া করে জমির পরিমাণ লিখুন', 'error');
-                return;
-            }
-            
-            const landValue = parseBanglaNumber(landToAdd);
-            if (landValue <= 0) {
-                showNotification('দয়া করে বৈধ জমির পরিমাণ লিখুন', 'error');
-                return;
-            }
-            
-            const persons = peopleContainer.querySelectorAll('.person');
-            const selectedPerson = persons[selectedIndex];
-            const landInput = selectedPerson.querySelector('.pland');
-            const currentLand = parseBanglaNumber(landInput.value) || 0;
-            const newLand = currentLand + landValue;
-            
-            landInput.value = formatNumber(newLand);
-            additionalLand.value = '';
-            
-            saveToLocalStorage();
-            showNotification(`${landValue} জমি যোগ করা হয়েছে`, 'success');
-            
-            // Auto-calculate if results are already shown
-            if (resultCard.style.display === 'block') {
-                calcBtn.click();
-            }
-        }
-        
-        // Event Listeners
-        addPersonBtn.onclick = () => {
-            createPerson();
-            showNotification('নতুন ব্যক্তি যোগ করা হয়েছে', 'success', 2000);
-        };
-        
-        addLandBtn.onclick = addLandToPerson;
-        
-        // Enter key support for additional land
-        additionalLand.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                addLandToPerson();
-            }
-        });
-        
-        resetBtn.onclick = () => {
-            if (!confirm('সব ইনপুট মুছে ফেলবেন? সেভ করা ডাটাও মুছে যাবে।')) return;
-            peopleContainer.innerHTML = '';
-            personCount = 0;
-            createPerson('', '');
-            createPerson('', '');
-            resultCard.style.display = 'none';
-            localStorage.removeItem('landCalculatorData');
-            
-            // Destroy charts
-            if (landPieChart) {
-                landPieChart.destroy();
-                landPieChart = null;
-            }
-            if (shareBarChart) {
-                shareBarChart.destroy();
-                shareBarChart = null;
-            }
-            
-            showNotification('সব ডাটা রিসেট করা হয়েছে', 'info');
-        };
-        
-        printBtn.onclick = prepareForPrint;
-        
-        calcBtn.onclick = () => {
-            const persons = [...peopleContainer.querySelectorAll('.person')].map((el, i) => {
-                const name = el.querySelector('.pname').value.trim() || `ব্যক্তি ${i + 1}`;
-                const landStr = el.querySelector('.pland').value.trim();
-                const land = parseBanglaNumber(landStr);
-                return { name, land };
-            });
-            
-            const total = persons.reduce((s, p) => s + p.land, 0);
-            if (total <= 0) {
-                showNotification('অনুগ্রহ করে বৈধ জমির পরিমাণ দিন।', 'error');
-                return;
-            }
-            
-            if (persons.length < 2) {
-                showNotification('অনুগ্রহ করে কমপক্ষে দুই ব্যক্তির তথ্য দিন।', 'error');
-                return;
-            }
-            
-            const TARGET = 1000;
-            let data = persons.map(p => ({
-                name: p.name,
-                land: formatNumber(p.land),
-                perc: (p.land / total) * 100,
-                share: (p.land / total) * TARGET
-            }));
-            
-            // Adjust for rounding errors
-            const totalShare = data.reduce((s, d) => s + d.share, 0);
-            const diff = TARGET - totalShare;
-            if (Math.abs(diff) > 0.01) {
-                data[data.length - 1].share += diff;
-                data[data.length - 1].perc = (data[data.length - 1].land / total) * 100;
-            }
-            
-            // Format final values
-            data = data.map(d => ({
-                ...d,
-                perc: formatNumber(d.perc),
-                share: formatNumber(d.share)
-            }));
-            
-            resultTableBody.innerHTML = '';
-            data.forEach((d, index) => {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td>${index + 1}</td>
-                    <td>${d.name}</td>
-                    <td class="center">${d.land.toFixed(2)}</td>
-                    <td class="center">${d.perc.toFixed(2)}%</td>
-                    <td class="right">${d.share.toFixed(2)}</td>
-                `;
-                resultTableBody.appendChild(tr);
-            });
-            
-            totalLandCell.textContent = formatNumber(total).toFixed(2);
-            totalShareCell.textContent = TARGET.toFixed(2);
-            
-            // Update print information
-            printTotalLand.textContent = formatNumber(total).toFixed(2);
-            printTotalPeople.textContent = persons.length;
-            updatePrintDate();
-            
-            // Create charts
-            createCharts(data);
-            
-            resultCard.style.display = 'block';
-            
-            // Scroll to results
-            resultCard.scrollIntoView({ behavior: 'smooth' });
-            
-            showNotification('হিসাব সফলভাবে সম্পন্ন হয়েছে!', 'success');
-        };
-        
-        aboutToggle.onclick = () => {
-            developerInfo.classList.toggle('active');
-            aboutToggle.innerHTML = developerInfo.classList.contains('active')
-                ? '<span>❌</span> বন্ধ করুন'
-                : '<span>📜</span> ডেভেলপার সম্পর্কে';
-        };
-        
-        // Initialize the application
-        function initApp() {
-            // Default two persons with actual names
-            createPerson('', '');
-            createPerson('', '');
-            
-            // Initialize print date
-            updatePrintDate();
-            
-            // Setup auto-conversion
-            setupAutoConversion();
-            
-            // Load saved data
-            loadFromLocalStorage();
-            
-            showNotification('জমি ভাগ ক্যালকুলেটর প্রোতে স্বাগতম!', 'info', 4000);
-        }
-        
-        // Start the application
-        initApp();
+
+        // Initial render
+        renderPeople();
     </script>
 </body>
 </html>
